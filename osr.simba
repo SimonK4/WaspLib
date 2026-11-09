@@ -59,7 +59,6 @@ This library along with [SRL-T](https://github.com/Torwent/SRL-T) is the core of
 {$IFNDEF WL_BASESCRIPT_INCLUDED}        {$I osr/basescript.simba}
 
 {$IFNDEF WL_CONSUMABLEHANDLER_INCLUDED} {$I osr/handlers/consumablehandler.simba}
-{$IFNDEF WL_SETTINGSHANDLER_INCLUDED}   {$I osr/handlers/settingshandler.simba}
 
 {$IFNDEF WL_PRAYER_INCLUDED}            {$I osr/interfaces/gametabs/prayer.simba}
 
@@ -70,7 +69,6 @@ This library along with [SRL-T](https://github.com/Torwent/SRL-T) is the core of
 
 {$IFNDEF WL_DEPRECATED_INCLUDED} {$I osr/deprecated.simba} {$ELSE}{$ENDIF}
 
-{$ELSE}{$ENDIF}
 {$ELSE}{$ENDIF}
 {$ELSE}{$ENDIF}
 {$ELSE}{$ENDIF}
